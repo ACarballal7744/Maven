@@ -1,0 +1,23 @@
+package steps;
+
+public class SearchSteps {
+
+	@Given ("generar numeros a partir del numero solicitado";
+	public void generarNumerosAPartirDelNumeroSolicitado() {
+		
+	}
+	
+	@When ("recibimos un numero de entrada");
+	public void recibimosUnNumeroDeEntrada() {
+		
+	}
+	@Then ("listamos del 0 al numero ingresado ordenado de 5 en 5");
+	public void ListamosDel0AlNumeroIngresadoOrdenadoDe5En5() {
+		
+	}
+	@Examples ("Descripcion del grupo de ejemplos");
+	public void DescripcionDelGrupoDeEjemplos() {
+		
+	}
+	
+}

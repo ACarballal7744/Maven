@@ -1,0 +1,12 @@
+Feature:Search;
+Scenario:Solicitamos un numero, se inicializa un bucle
+ Casos de Uso
+
+
+      Datos de Entrada
+      | Nombre   | Longitud | Descripción | Valores Posibles   | Valores de Prueba |
+      | int	     | 3        |numero entero|              100      |100|
+Given generar numeros a partir del numero solicitado
+When recibimos un numero de entrada
+Then listamos del 0 al numero ingresado ordenado de 5 en 5
+	
