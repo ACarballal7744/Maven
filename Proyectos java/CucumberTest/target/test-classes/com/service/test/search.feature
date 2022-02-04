@@ -12,18 +12,20 @@ Feature: Search
      # Codigos de Error
       #| Nombre    | Longitud | Descripción |
       #| int		    | 3        |             |  
-      
+Background:
+Given [Search] setear limit en 50  
 @ok
-Scenario Outline: Solicitamos un numero      
+Scenario Outline: Solicitamos un numero    
 Given [Search] generar numeros a partir del numero solicitado
  And [Search] usando los siguientes parametros
-      | int   | 
-      | <int> | 
+
 When [Search] recibimos un numero de entrada
 Then [Search] listamos del 0 al numero ingresado ordenado de 5 en 5
+      | int   |
+      | <int> |
 Examples: Descripcion del grupo de ejemplos
       | codigo | descripcion | int |
-      | ok     | caso ok     |  100| 
-
+      | ok     | caso ok     |  100|
+      | ok     | caso ok     |  200|
 
 	

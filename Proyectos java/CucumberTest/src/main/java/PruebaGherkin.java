@@ -4,18 +4,9 @@ public class PruebaGherkin {
 
 	public static void main(String[] args) {
 
-		Scanner entrada = new Scanner(System.in);
+		Imprimir a1 = new Imprimir();
 		
-		int i=0;
-		int n;
-		System.out.println("Ingresá un número");
-		
-		n=entrada.nextInt();
-		
-		for(i=0; i<=n; i+=5) {
-			System.out.println (i);
-		}
-	 
+		a1.entradaDatos();
 	}
 
 }
