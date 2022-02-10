@@ -1,3 +1,4 @@
+package Clases;
 import java.util.Scanner;
 
 public class PruebaGherkin {
@@ -6,7 +7,7 @@ public class PruebaGherkin {
 
 		Imprimir a1 = new Imprimir();
 		
-		a1.entradaDatos();
+		a1.entradaDatos(0);
 	}
 
 }

@@ -1,4 +1,5 @@
-package steps;
+package Clases;
+
 
 import java.util.Scanner;
 
